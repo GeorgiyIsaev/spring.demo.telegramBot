@@ -12,6 +12,9 @@ public record Message(
         Long messageId,
 
         @JsonProperty("text")
-        String text
-        ) {
+        String text,
+
+        @JsonProperty("chat")
+        Chat chat
+        ){
 }

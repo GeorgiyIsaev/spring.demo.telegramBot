@@ -6,12 +6,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record Update(
+public record Chat(
 
-        @JsonProperty("update_id")
-        Long updateId,
+        @JsonProperty("id")
+        Long chatId,
 
-        @JsonProperty("message")
-        Message message
+        @JsonProperty("username")
+        String username
         ){
 }
