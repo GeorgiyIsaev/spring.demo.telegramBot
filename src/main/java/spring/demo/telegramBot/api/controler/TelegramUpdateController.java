@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import spring.demo.telegramBot.api.client.SetWebhookRequest;
 import spring.demo.telegramBot.api.client.TelegramFeignClient;
-import spring.demo.telegramBot.api.data.Update;
+import spring.demo.telegramBot.api.data.update.Update;
 
 
 @RestController
@@ -16,8 +16,8 @@ import spring.demo.telegramBot.api.data.Update;
 public class TelegramUpdateController {
 
     private final String urlServer;
-
     private final TelegramFeignClient telegramFeignClient;
+
     public TelegramUpdateController(
             TelegramFeignClient telegramFeignClient
             ,@Value("${telegram.urlServer}") String urlServer){
