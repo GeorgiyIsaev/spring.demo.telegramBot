@@ -11,6 +11,9 @@ public record Chat(
         @JsonProperty("id")
         Long chatId,
 
+        @JsonProperty("first_name")
+        String firstName,
+
         @JsonProperty("username")
         String username
         ){
