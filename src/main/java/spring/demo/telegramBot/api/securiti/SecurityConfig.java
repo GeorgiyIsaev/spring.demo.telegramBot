@@ -20,6 +20,7 @@ public class SecurityConfig {
                                 "/v1/api/telegram/**"
                         ).permitAll()
                 ).build();
+
     }
 }
 
