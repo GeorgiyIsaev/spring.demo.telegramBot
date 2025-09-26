@@ -12,15 +12,15 @@ ____
 * [2. Бин класса SecurityFilterChain](#2-Бин-класса-SecurityFilterChain)  
 * [3. Интерфейс FeignClient](#3-Интерфейс-FeignClient)  
 * [4. record SetWebhookRequest(String url)](#4-record-SetWebhookRequestString-url)  
-* [5. Controller для обработки входящих сообщений (Update)](#5-Controller-для-обработки-входящих-сообщений-(Update))  
+* [5. Controller для обработки входящих сообщений (Update)](#5-Controller-для-обработки-входящих-сообщений-Update)  
 * [6. Кастомный Update](#6-Кастомный-Update)  
 
 [Этап третий - Обработка Update и отправка SendMessage](#Этап-третий---Обработка-Update-и-отправка-SendMessage)  
 * [1. Получение тела JSON и преобразование в Java объект](#1-Получение-тела-JSON-и-преобразование-в-Java-объект)  
 * [2. Определение типа прибывшего сообщения (Update)](#2-Определение-типа-прибывшего-сообщения-Update)  
 * [3. Отправка сообщения в чат (SendMessage)](#3-Отправка-сообщения-в-чат-SendMessage)  
-* [4. Отправка кнопок (SendMessage)](#4-Отправка-кнопок-(SendMessage))  
-* [5. Отправка клавиатуры (SendMessage)](#5-Отправка-клавиатуры-(SendMessage))  
+* [4. Отправка кнопок (SendMessage)](#4-Отправка-кнопок-SendMessage)  
+* [5. Отправка клавиатуры (SendMessage)](#5-Отправка-клавиатуры-SendMessage)  
 
 
 ____
