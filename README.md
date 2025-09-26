@@ -54,8 +54,10 @@ ____
 <details> 
   <summary>Иллюстрация
 </summary>
+
 ![Иллюстрация к проекту](https://github.com/GeorgiyIsaev/spring.demo.telegramBot/blob/master/Image/tunnel_host.jpg)
 </details> 
+
 [:arrow_up:Оглавление](#Оглавление)
 
 ### Получение token бота
@@ -66,6 +68,7 @@ ____
 <details> 
   <summary>Иллюстрация
 </summary>
+
 ![Иллюстрация к проекту](https://github.com/GeorgiyIsaev/spring.demo.telegramBot/blob/master/Image/bot_token.jpg)
 </details> 
 
