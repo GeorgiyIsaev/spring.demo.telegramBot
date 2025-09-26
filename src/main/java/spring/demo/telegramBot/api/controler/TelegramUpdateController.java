@@ -49,7 +49,7 @@ public class TelegramUpdateController {
     }
 
     @PostMapping("/")
-    public void postMethodName(@RequestBody spring.demo.telegramBot.api.data.update.Update update) {
+    public void postMethod(@RequestBody spring.demo.telegramBot.api.data.update.Update update) {
         System.out.println("Update print " + update);
 
         if (update.message() != null) {
@@ -82,18 +82,18 @@ public class TelegramUpdateController {
                 Arrays.asList(
                         InlineKeyboardButton.builder()
                                 .text("Кнопка 1")
-                                .callbackData(button1)
+                                .callbackData("button1")
                                 .build(),
                         InlineKeyboardButton.builder()
-                                .text(button2)
-                                .callbackData(button2)
+                                .text("Кнопка 1")
+                                .callbackData("button2")
                                 .build()));
 
         buttons.add(
                 Arrays.asList(
                         InlineKeyboardButton.builder()
                                 .text("Кнопка 3")
-                                .callbackData(button3)
+                                .callbackData("button3")
                                 .build()
                        ));
 

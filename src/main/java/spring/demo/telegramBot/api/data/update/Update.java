@@ -16,6 +16,4 @@ public record Update(
 
         @JsonProperty("callback_query")
         CallbackQuery callbackQuery
-
-
 ){}
